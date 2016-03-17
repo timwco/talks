@@ -1,14 +1,17 @@
-footer: The Iron Yard | 2015
+footer: The Iron Yard | 2016
 slidenumbers: true
 
 # JavaScript
 
-## An Introduction
+## Crash Course
 
-#### Wifi: Ir0nY@rd!
+### Wifi
 
-#### l.timw.co/js-crash-course
+- Network: Student
+- Username: apollosrc\uop-ga-dunwoody
+- Password: internet
 
+![right](./assets/brett.gif)
 
 ---
 
@@ -22,7 +25,7 @@ slidenumbers: true
 
 ---
 
-## What is JavaScript?
+## So what is JavaScript?
 
 JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
 
@@ -34,8 +37,7 @@ JavaScript is an object-oriented computer programming language commonly used to 
 
 ## So, What is Programming?
 
-Writing instructions for your computer 
-to execute at a later time.
+Writing instructions for your computer to execute at a later time.
 
 ---
 
@@ -49,34 +51,31 @@ to execute at a later time.
 
 ## What Is JavaScript Used For?
 
-- Adding Fancy Page Interactions - [here](http://dev.sencha.com/playpen/ext-core-latest/examples/lightbox/)
-- Full Featured Web Apps - [here](http://www.rdio.com/new/)
-- Drawing & Animations - [here](http://raphaeljs.com/analytics.html)
+- Adding Fancy Page Interactions - [here](http://finegoodsmarket.com/view)
+- Full Featured Web Apps - [here](https://play.spotify.com/browse)
+- Drawing & Animations - [here](http://animateddata.co.uk/lab/d3-tree/)
 - Interactive elements - [here](http://codepen.io/twhitacre/full/MwKXxz/)
 - Build a full backend - [here](http://nodejs.org/)
 
 ---
 
-## Some "Parts" of A Programming Language
+## Road Map
 
 * Syntax
 * Data Types
 * Variables
+* Chrome Console
 * Expressions
+
+![right](./assets/guide.jpg)
 
 ---
 
 ## Syntax
 
-```js
+```javascript
 document.getElementById('header');
 ```
-
-* `document`: object
-* `.`: property accessor
-* `getElementById`: property
-* `()`: function call
-* `'header'`: parameter
 
 ---
 
@@ -94,19 +93,19 @@ document.getElementById('header');
 
 Declare a variable
 
-```js
+```javascript
 var firstName;
 ```
 
 Assign a value to a variable
 
-```js
+```javascript
 firstName = 'Tim';
 ```
 
 Shorthand (Declare and assign)
 
-```js
+```javascript
 var firstName = 'Tim';
 ```
 
@@ -128,12 +127,16 @@ var firstName = 'Tim';
 
 ---
 
+##[Chrome Console](http://timw.co/playground/)
+
+---
+
 ## Expressions
 
 
 > Variables can store the result of an expression
 
-```js
+```javascript
 var age = 2014 - 1983;
 var greeting = "My name is Tim and I am " + age + " years old";
 var isOld = age > 100;
@@ -143,7 +146,7 @@ var isOld = age > 100;
 
 ## Comments
 
-```js
+```javascript
 var firstName = "Tim"; // Single Line Comment
 
 /*
@@ -154,22 +157,12 @@ var a = 1;
 var b = 2;
 var c = 1 + 2;
 ```
----
-
-## Arithmetic
-
-```js
-var a = 5 + 5; // 10
-var b = a * 2; // 20
-var c = 25 / 5; // 5
-var d = b - c; // 15
-```
 
 ---
 
 ## Functions
 
-```js
+```javascript
 function greet (name) {
 
   return “Hello, “ + name + “!”;
@@ -180,7 +173,27 @@ greet(“Tim”); // Hello, Tim!
 ```
 ---
 
-# Live Coding
+# Let's Build Something
+
+###[Catulator](http://codepen.io/twhitacre/pen/qZRxxx/right/?editors=1010)
+
+---
+
+## Quiz
+
+> There are five (5) primitive data types in JavaScript. <br /><br /><br />
+
+> What are they?
+
+---
+
+## Answers
+
+* `Number`
+* `String`
+* `Boolean`
+* `Null`
+* `Undefined`
 
 ---
 
