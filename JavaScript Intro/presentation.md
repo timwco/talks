@@ -6,155 +6,136 @@
 
 ---
 
-## What Is It Used For?
+## What is JavaScript?
 
-- Adding Fancy Page Interactions - [here](http://dev.sencha.com/playpen/ext-core-latest/examples/lightbox/)
-- Full Featured Web Apps - [here](http://www.rdio.com/new/)
-- Drawing & Animations - [here](http://raphaeljs.com/analytics.html)
+#### Well, it's not Java!
+
+---
+
+## So what is JavaScript?
+
+JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
+
+---
+
+## So, What is Programming?
+
+---
+
+## So, What is Programming?
+
+Writing instructions for your computer to execute at a later time.
+
+---
+
+## The Modern Web
+
+* The Content Layer (HTML)
+* The Design Layer (CSS)
+* The Interactive Layer (JavaScript)
+
+---
+
+## What Is JavaScript Used For?
+
+- Adding Fancy Page Interactions - [here](http://finegoodsmarket.com/view)
+- Full Featured Web Apps - [here](https://play.spotify.com/browse)
+- Drawing & Animations - [here](http://animateddata.co.uk/lab/d3-tree/)
 - Interactive elements - [here](http://codepen.io/twhitacre/full/MwKXxz/)
 - Build a full backend - [here](http://nodejs.org/)
 
 ---
 
-# Syntax
+## Road Map
 
-```js
+* Syntax
+* Data Types
+* Variables
+* Chrome Console
+* Expressions
+
+![right](./assets/guide.jpg)
+
+---
+
+## Syntax
+
+```javascript
 document.getElementById('header');
 ```
 
-- `document`: object
-- `.`: property accessor
-- `getElementById`: property (in this case, a function)
-- `()`: function call
-- `'header'`: parameter (in this case, a String)
-- `;`: end of the statement
+---
 
+## Data Types
+
+* `Number` looks like: *1* or *500* or *3.14*
+* `String` looks like "Any Message in Quotes"
+* `Boolean` looks like *true* or *false*
+* `Null` is an empty value: *null*
+* `Undefined` is the absence of a value: *undefined*
 
 ---
 
-# Statements
 
-```js
-var name = “Tim”;
-```
-
-```js
-console.log('Hi, my name is ' + name);
-```
-
----
-
-# Variables
+##  Variables
 
 Declare a variable
 
-```js
-var name;
+```javascript
+var firstName;
 ```
 
-Assign a value to a variable (initialize)
+Assign a value to a variable
 
-```js
-name = 'Tim';
+```javascript
+firstName = 'Tim';
 ```
 
 Shorthand (Declare and assign)
 
-```js
-var name = 'Tim';
-```
-
-
----
-
-# Primitives
-
-- String (immutable chunk of characters)
-
-```js
-var hello = "Good morning, Tim";
-```
-
-- Number (5, -20 or floats like 1.225)
-
-```js
-var age = 31;
-var pi = 3.14;
-var temp = -7;
-```
-
-- Boolean (true or false)
-
-```js
-var freezingIsFun = true;
-var heightsAreAwesome = false;
-var is_old = 31 > 30;
+```javascript
+var firstName = 'Tim';
 ```
 
 ---
 
-# Primitives
-
-- Undefined (not yet defined)
-
-```js
-var nothing;
-```
-
-- Null (empty value)
-
-```js
-var nothing = null;
-```
-
----
-
-# Variables
+## Variables (Rules)
 
 - Begin with letters, $ or _
 - Only contain letters, numbers, $ and _
 - Case sensitive
 - No reserved words - [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
-- camelCase vs using _'s
-- Choose a convention
 
 ---
 
-# Expressions
+## Variables (Conventions)
+
+- camelCase vs snake_case
+- Choose and stick with a convention
+
+---
+
+## Expressions
+
 
 > Variables can store the result of an expression
 
-```js
-var age = 2014 - 1983;
+```javascript
+var age = 2016 - 1983;
 var greeting = "My name is Tim and I am " + age + " years old";
+var isOld = age > 100;
 ```
 
 ---
 
-# Loose Typing
+## Comments
 
-```js
-// You can change me!
-var x;
-x = 31;
-x = "Tim"
-```
-
-```js
-// What happens here?
-var x = 2 + "Tim";
-```
-
----
-
-# Comments
-
-```js
-var name = "Tim"; // Single Line Comment
+```javascript
+var firstName = "Tim"; // Single Line Comment
 
 /*
   Multi Line
-  Comment
+  Comment (Comment Block)
 */
 var a = 1;
 var b = 2;

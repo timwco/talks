@@ -14,9 +14,8 @@
 
 ---
 
-### Instructors
+### Instructor
 
-* JD Isaacks
 * Tim Whitacre
 
 ![left,filtered](images/internet.png)
@@ -33,11 +32,11 @@
 
 ---
 
-# What Can You Expect from Us?
+## What Can You Expect from Us?
 
 ---
 
-# What We Expect from You
+## What We Expect from You
 
 ---
 

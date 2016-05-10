@@ -85,29 +85,16 @@ $ npm install -g mocha
 
 ---
 
-> BDD VS TDD
+# TDD & BDD
+
+> Test Driven Development <br>
+
+> Behavior Driven Development <br>
+
+> The idea of writing tests first, having them all fail (because of no code) then writing code to make the tests pass.
 
 ---
 
-# TDD
-
-> Test Driven Development <br />
-
-> The idea of writing tests first, having them all fail (because of no code) then writing tests to make the code pass.
-
----
-
-# BDD
-
-> Behavior Driven Development <br />
-
-> At it's core, BDD is a feature driven approach to TDD. Very similar to TDD but more verbose. <br />
-
-> BDD is more focused on the features as opposed to the results. <br />
-
-> Basically, we care more about the results of what is happening, then how we go about making it happen.<br />
-
----
 
 # Which Do We Use?
 
@@ -141,7 +128,7 @@ expect(cake).to.be.a('string');
 
 ---
 
-# should()
+# should
 
 > Very similar to `expect` but it allows you extend each object with should to start a chain.
 

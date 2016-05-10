@@ -8,10 +8,11 @@ slidenumbers: true
 ### Wifi
 
 - Network: Student
-- Username: apollosrc\uop-ga-dunwoody
-- Password: internet
+- User: apollosrc\uop-ga-dunwoody
+- Pass: internet
 
-![right](./assets/brett.gif)
+
+![right](./assets/yay.jpg)
 
 ---
 
@@ -52,7 +53,7 @@ Writing instructions for your computer to execute at a later time.
 ## What Is JavaScript Used For?
 
 - Adding Fancy Page Interactions - [here](http://finegoodsmarket.com/view)
-- Full Featured Web Apps - [here](https://play.spotify.com/browse)
+- Full Featured Web Apps - [here](https://foursquare.com/explore?mode=url&near=Sandy%20Springs%2C%20GA&nearGeoId=72057594042149269&q=sushi)
 - Drawing & Animations - [here](http://animateddata.co.uk/lab/d3-tree/)
 - Interactive elements - [here](http://codepen.io/twhitacre/full/MwKXxz/)
 - Build a full backend - [here](http://nodejs.org/)
@@ -81,11 +82,13 @@ document.getElementById('header');
 
 ## Data Types
 
-* `Number` looks like: *1* or *500* or *3.14*
-* `String` looks like "Any Message in Quotes"
-* `Boolean` looks like *true* or *false*
-* `Null` is an empty value: *null*
-* `Undefined` is the absence of a value: *undefined*
+Other than `objects`, we have the following primitives:
+
+* __**Number**__ - `1` or `500` or `3.14`
+* __**String**__ - `"Any Message in Quotes"`
+* __**Boolean**__ - `true` or `false`
+* __**Null**__ - is an empty value: `null`
+* __**Undefined**__ - is the absence of a value: `undefined`
 
 ---
 
@@ -122,7 +125,7 @@ var firstName = 'Tim';
 
 ## Variables (Conventions)
 
-- camelCase vs using _'s
+- camelCase vs snake_case
 - Choose and stick with a convention
 
 ---
@@ -137,7 +140,7 @@ var firstName = 'Tim';
 > Variables can store the result of an expression
 
 ```javascript
-var age = 2014 - 1983;
+var age = 2016 - 1983;
 var greeting = "My name is Tim and I am " + age + " years old";
 var isOld = age > 100;
 ```

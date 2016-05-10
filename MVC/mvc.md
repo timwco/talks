@@ -2,11 +2,19 @@
 
 ---
 
+## (M)odel <br><br>
+
+## (V)iew <br><br>
+
+## (C)ontroller
+
+---
+
 ## Single Page Applications
 
 * Gmail
 * Google Docs
-* Unmark
+* Trello
 
 ---
 
@@ -14,9 +22,13 @@
 
 DOM Manipulation (jQuery) 
 
-Functional Language (Underscore)
+JavaScript Template (ES6 Template Literals)
 
-Nested callbacks, poor data binding, basically spaghetti code
+Nested callbacks, poor or no data binding
+
+---
+
+> Honestly, we are starting to approach spaghetti code
 
 ---
 
@@ -26,11 +38,11 @@ Nested callbacks, poor data binding, basically spaghetti code
 
 ---
 
-![inline](assets/femvc.jpg)
+![inline](assets/frameworks.png)
 
 ---
 
-> Let's first look at what a standard MVC looks like
+> Let's first look at what a the pieces of MVC are
 
 ---
 
@@ -48,10 +60,8 @@ Nested callbacks, poor data binding, basically spaghetti code
 
 ## Controllers
 
-> They handle the actions. They take input, watch for clicks and other user actions. Basically Controllers handle the input while Views handle the output. A controller will update your Modal and then because of the relationship with the view it will be updated there. Note though that your controller does not talk to your view.
+> They handle the actions. They take input, watch for clicks and other user actions. Basically Controllers handle the input while Views handle the output. A controller will update your Modal and then in return your view will be updated. Basically, for the most part you can think of the controller as sitting between
 
 ---
 
-Some frameworks... like Backbone... don't really have Controllers, but pass off the responsibility of what a Controller normally does to the View. 
-
-In this case we call this a MV* pattern. You still have a View & and a Model.
+Let's take a deeper look

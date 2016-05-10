@@ -48,34 +48,19 @@ $.getJSON( 'https://api.github.com/users/twhitacre' );
 
 ---
 
-## .done()
+## .then()
 
 ### Handlers called when the Deferred object is resolved. <br><br><br>
 
 ```javascript
-$.getJSON( 'https://api.github.com/users/twhitacre' ).done( function (data) {
-  console.log(data);
-});
-```
-
----
-
-## Promises
-
-### Promises are a way to gain control over asynchrony
-
-
-```javascript
-$.getJSON( 'https://api.github.com/users/twhitacre' )
- .done(function(){
-   console.log("first")
- })
- .always(function(){
-   console.log("second")
- })
- .done(function(){
-   console.log("third")
-});
+$.getJSON( 'https://api.github.com/users/twhitacre' ).then( 
+  function (res) {
+    console.log(res);
+  },
+  function (error) {
+    console.log(error);
+  }
+);
 ```
 
 

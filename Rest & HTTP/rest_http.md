@@ -2,7 +2,7 @@
 
 ---
 
-# HTTP
+## HTTP
 
 ### Hypertext Transfer Protocol
 
@@ -12,13 +12,13 @@
 
 ---
 
-# REST
+## REST
 
 ### Representational State Transfer
 
 ---
 
-# REST
+## REST
 
 > REST is an architecture style. 
 > The web can be viewed as REST-based architecture.
@@ -26,7 +26,7 @@
 
 ---
 
-# REST
+## REST
 ### CRUD
 
 
@@ -41,14 +41,14 @@
 
 --- 
 
-# CREATE (POST)
+## CREATE (POST)
 
 
-### `/artists/new`
+### `/artists/`
 
 ---
 
-# READ (GET)
+## READ (GET)
 
 ### `/artists`
 
@@ -56,13 +56,13 @@
 
 ---
 
-# UPDATE (PUT)
+## UPDATE (PUT)
 
 ### `/artists/14`
 
 ---
 
-# DELETE (DELETE)
+## DELETE (DELETE)
 
 ### `/artists/14`
 

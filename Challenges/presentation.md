@@ -6,7 +6,11 @@
 
 ## FizzBuzz
 
-> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+> Write a program that prints the numbers from 1 to 100. 
+
+> But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
+
+> For numbers which are multiples of both three and five print “FizzBuzz”.
 
 
 ---
@@ -48,10 +52,141 @@ for (var i=1; i <= 100; i++) {
   { type: 'submit', label: 'Register' }
 ]
 ```
+
+---
+## Hoisting Quiz
+
+#### Think Closures, Scope & Global Namespaces
+
+1. Write down the output
+2. Write down "why" that output came out
+
+
 ---
 
-#### Quiz 3
+```
+var myvar = 'my value';
 
-## Constructors & Prototypes
+(function() {
+  console.log(myvar);
+  var myvar = 'local value';
+})();
 
-> Take the `challenges.js` file, copy it into your `main.js` file and make sure all of the `console.assert()`'s pass.
+```
+
+---
+
+```
+var flag = true;
+
+function test() {
+  if (flag) {
+    var flag = false;
+    console.log('Switch flag from true to false');
+  } else {
+    flag = true;
+    console.log('Switch flag from false to true');
+  }
+}
+test();
+
+```
+
+---
+
+```
+var message = 'Hello world';
+
+function saySomething() {
+  console.log(message);
+  var message = 'Foo bar';
+}
+saySomething();
+
+```
+
+---
+
+```
+var message = 'Hello world';
+
+function saySomething() {
+  console.log(message);
+  message = 'Foo bar';
+}
+saySomething();
+
+```
+
+---
+
+```
+function test() {
+  console.log(a);
+  console.log(foo());
+
+  var a = 1;
+
+  function foo() {
+    return 2;
+  }
+}
+
+test();
+
+```
+
+---
+
+```
+(function() {
+  console.log(bar);
+  foo();
+
+  function foo() {
+    console.log('aloha');
+  }
+
+  var bar = 1;
+  baz = 2;
+})();
+
+```
+
+---
+```
+var run = false;
+
+function fancy(arg1, arg2) {
+  if (run) {
+    console.log('I can run');
+  } else {
+    console.log('I can\'t run');
+  }
+
+  function run() {
+    console.log('Will I run?');
+  }
+}
+fancy();
+
+```
+
+---
+
+```
+var run = false;
+
+function fancy(arg1, arg2) {
+  if (run) {
+    console.log('I can run');
+  } else {
+    console.log('I can\'t run');
+  }
+
+  var run = function() {
+    console.log('Will I run?');
+  }
+}
+fancy();
+```
