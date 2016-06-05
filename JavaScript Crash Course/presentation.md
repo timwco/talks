@@ -5,12 +5,6 @@ slidenumbers: true
 
 ## Crash Course
 
-### Wifi
-
-- Network: Student
-- User: apollosrc\uop-ga-dunwoody
-- Pass: internet
-
 
 ![right](./assets/yay.jpg)
 
