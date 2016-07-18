@@ -25,10 +25,6 @@
 
 ---
 
-![inline 100%](assets/as_logo.png)
-
----
-
 ![inline 100%](assets/hostednotes.png)
 
 ---

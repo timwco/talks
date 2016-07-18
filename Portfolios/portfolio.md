@@ -65,6 +65,10 @@ p { color: green; }
 
 ---
 
+# Portfolios: A Technical Guide
+
+---
+
 ## Templates
 
 * [Theme Forest](http://themeforest.net/)
@@ -77,21 +81,18 @@ p { color: green; }
 
 ## Hosted For You
 
-* [WordPress](https://wordpress.com/)
 * [Squarespace](http://squarespace.com/)
 * [Github Pages](https://pages.github.com/)
-* [Virb](http://virb.com/) *
+* [Jekyll](https://jekyllrb.com/)
+* [WordPress](https://wordpress.com/)
 
+---
 
-> * Offers a [free year](http://students.virb.com/) for students
+## I need a domain!
 
 ---
 
 ## Don't Use GoDaddy!
-
----
-
-> _Every time a GoDaddy domain is bought, a kitten dies._
 
 ---
 
@@ -108,8 +109,9 @@ p { color: green; }
 
 ## Hosting Providers
 
-* [Bluehost](http://www.bluehost.com/)
-* [Digital Ocean](https://www.digitalocean.com/)
+* [Github](http://pages.github.com/) (Free)
+* [Bluehost](http://www.bluehost.com/) ($71.40 / Year)
+* [Digital Ocean](https://www.digitalocean.com/) ($5 / Month)
 
 
 

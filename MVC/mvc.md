@@ -48,20 +48,20 @@ Nested callbacks, poor or no data binding
 
 ## MODELS
 
-> They represent the data in your application. This can be viewed as a type of data you can model, like a Person, User, Car, ToDo etc. Models should always be up to date and be able to notify anyone about their current state.
+> They represent the data in your application. This can be viewed as a type of data you can model, like a Person, User, Car, Task etc.
 
 ---
 
 ## Views
 
-> They are what the user of your application interfaces with. Views are always aware of your Models but don't directly communicate with them.
+> They are what the user of your application interfaces with.
 
 ---
 
 ## Controllers
 
-> They handle the actions. They take input, watch for clicks and other user actions. Basically Controllers handle the input while Views handle the output. A controller will update your Modal and then in return your view will be updated. Basically, for the most part you can think of the controller as sitting between
+> They handle the actions. They take input, watch for clicks and other user actions. Basically Controllers handle the input while Views handle the output. A controller will update your Modal and then in return your view will be updated. Basically, for the most part you can think of the controller as sitting between your views and your models.
 
 ---
 
-Let's take a deeper look
+Let's code :allthethings:
